@@ -2,7 +2,7 @@
 Scan for:
 - IP_ADDRESS
 
-# Recon
+## Recon
 ---
 ---
 ### UnicornScan TCP Scan:
@@ -19,74 +19,74 @@ NMAPSCAN
 ---
 ---
 ### FTP:
-####FTP Banner:
+#### FTP Banner:
 ```
 INSERTFTPBANNER
 ```
-####Scan:
+#### Scan:
 ```
 INSERTFTPSCAN
 ```
 ---
 ---
 ### SSH:
-####SSH Banner:
+#### SSH Banner:
 ```
 INSERTSSHBANNER
 ```
-####Scan:
+#### Scan:
 ```
 INSERTSSHSCAN
 ```
 ---
 ---
 ### SMTP:
-####SMTP Banner:
+#### SMTP Banner:
 ```
 INSERTSMTPBANNER
 ```
-####Scan:
+#### Scan:
 ```
 INSERTSMTPSCAN
 ```
 ---
 ---
 ### POP3:
-####POP3 Banner:
+#### POP3 Banner:
 ```
 INSERTPOP3BANNER
 ```
-####Scan:
+#### Scan:
 ```
 INSERTPOP3SCAN
 ```
 ---
 ---
 ### IMAP:
-####IMAP Banner:
+#### IMAP Banner:
 ```
 INSERTIMAPBANNER
 ```
-####Scan:
+#### Scan:
 ```
 INSERTIMAPSCAN
 ```
 ---
 ---
 ### SMB Scan:
-####Nbtscan
+#### Nbtscan
 ```
 INSERTNBTSCAN
 ```
-####SMB Map
+#### SMB Map
 ```
 INSERTSMBMAP
 ```
-####SMB NSE Scripts
+#### SMB NSE Scripts
 ```
 INSERTSMBNSE
 ```
-####Enum4Linux
+#### Enum4Linux
 ```
 INSERTENUM4LINUX
 ```
