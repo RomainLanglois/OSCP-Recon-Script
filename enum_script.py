@@ -315,8 +315,7 @@ if __name__ == "__main__":
     # check if the scan IP folder exists
     if ip_address not in dirs:
         # If not, create a new folder for the scan machine
-        print(
-                    Bcolors.HEADER + "INFO[*]: No folder was found for " + ip_address + ". Creating a new folder." + Bcolors.ENDC)
+        print(Bcolors.HEADER + "INFO[*]: No folder was found for " + ip_address + ". Creating a new folder." + Bcolors.ENDC)
         subprocess.check_output("mkdir " + report_directory, shell=True)
         print(Bcolors.OKGREEN + "INFO[*]: Folder created here: " + report_directory + Bcolors.ENDC)
 
