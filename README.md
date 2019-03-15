@@ -1,8 +1,7 @@
 ## OSCP Recon Script
 
 ### About
-* This is a multi-threading enumeration script used to automated the basics steps of reconnaissance.
-
+* This is a multi-threading enumeration script used to automate the basics steps of reconnaissance.
 * This script scan the most common services
     * FTP
     * SSH
@@ -11,7 +10,7 @@
     * HTTP/HTTPS 
 
 ### How it works 
-1. The script will check if a repository exits for the scanned machine, if not it will create one
+1. The script will check if a repository exists for the scanned machine, if not it will create one
 2. Unicorscan is used to quickly discover the open ports
 3. Nmap then used the port found by UnicornScan to scan the remote machine
 4. Based on the port found, other tools will be used to discover more information like:
