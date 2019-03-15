@@ -23,7 +23,7 @@ NMAPSCAN
 ```
 INSERTFTPBANNER
 ```
-#### Scan:
+#### FTP Scan:
 ```
 INSERTFTPSCAN
 ```
@@ -34,7 +34,7 @@ INSERTFTPSCAN
 ```
 INSERTSSHBANNER
 ```
-#### Scan:
+#### SSH Scan:
 ```
 INSERTSSHSCAN
 ```
@@ -45,7 +45,7 @@ INSERTSSHSCAN
 ```
 INSERTSMTPBANNER
 ```
-#### Scan:
+#### SMTP Scan:
 ```
 INSERTSMTPSCAN
 ```
@@ -56,7 +56,7 @@ INSERTSMTPSCAN
 ```
 INSERTPOP3BANNER
 ```
-#### Scan:
+#### POP3 Scan:
 ```
 INSERTPOP3SCAN
 ```
@@ -67,26 +67,26 @@ INSERTPOP3SCAN
 ```
 INSERTIMAPBANNER
 ```
-#### Scan:
+#### IMAP Scan:
 ```
 INSERTIMAPSCAN
 ```
 ---
 ---
 ### SMB Scan:
-#### Nbtscan
+#### Nbtscan:
 ```
 INSERTNBTSCAN
 ```
-#### SMB Map
+#### SMB Map:
 ```
 INSERTSMBMAP
 ```
-#### SMB NSE Scripts
+#### SMB NSE Scripts:
 ```
 INSERTSMBNSE
 ```
-#### Enum4Linux
+#### Enum4Linux:
 ```
 INSERTENUM4LINUX
 ```
